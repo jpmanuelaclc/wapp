@@ -1,0 +1,95 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+.content {
+  width: 95%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 10px;
+  padding-top: 70px;
+}
+.card {
+  background-color: bisque;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  /* border-color: black;
+  border-width: 5px;
+  border-style: solid; */
+  border: black 4px solid;
+  box-shadow: 5px 5px 5px blue;
+  display: flex;
+}
+.desc-section {
+  margin-left: 10px;
+}
+
+.navbar {
+  background-color: darksalmon;
+  width: 100%;
+  height: 45px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+}
+.navbar a {
+  text-decoration: none;
+  color: brown;
+  margin: 10px;
+  font-size: 25px;
+}
+
+.card img {
+  width: 150px;
+  height: 75px;
+  border-radius: 10px;
+  border: brown 4px solid;
+}
+
+.img-section p {
+  font-size: 25px;
+  font-family: "Bitcount", sans-serif;
+  text-shadow: 3px 3px 5px brown;
+}
+
+.desc-section p {
+  font-size: 12px;
+  font-family: "Bitcount", sans-serif;
+  text-shadow: 3px 3px 5px brown;
+}
+
+.desc-section button {
+  background-color: pink;
+  color: brown;
+  border-radius: 10px;
+  border: white 5px inset;
+  padding: 10px;
+}
+.desc-section button:active {
+  background-color: brown;
+  color: pink;
+  scale: 0.9;
+}
+
+.card:hover {
+  background-color: brown;
+  color: white;
+  box-shadow: 5px 5px 5px rgb(27, 223, 60);
+}
+
+.card img:hover {
+  scale: 1.25;
+  box-shadow: 5px 5px 5px white;
+}
+
+.card:nth-child(4n + 1) {
+  background-color: coral;
+  scale: 0.85;
+}
