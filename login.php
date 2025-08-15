@@ -22,7 +22,7 @@ if (isset($_POST['loginUser'])) {
     <?php include "navbar.php" ?>
     <div class="content">
         <form method="POST">
-            <label for="username">User</label>
+            <label for="username">Username</label>
             <input type="text" name="username" required>
             <label for="password">Password</label>
             <input type="password" name="password" required>
