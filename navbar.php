@@ -12,7 +12,7 @@ $save = $_SESSION["saveSession"] ?? "";
     <a><?= $save ?></a>
     <a href="index.php">Home</a>
     <a href="about.php">About</a>
-    <a href="contact.php">dsf Us</a>
+    <a href="contact.php">sdfs Us</a>
     <a href="<?= $href ?>"><?= $_SESSION["userSession"] ?? "Login First" ?></a>
     <?= $logoutBtn ?>
 </div>
