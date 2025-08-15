@@ -15,7 +15,7 @@ if (isset($_POST['loginUser'])) {
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Bitcount:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <title>Login Page</title>
+    <title>Login</title>
 </head>
 
 <body>
@@ -33,3 +33,4 @@ if (isset($_POST['loginUser'])) {
 
 
 </html>
+
