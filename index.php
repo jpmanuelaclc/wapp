@@ -23,7 +23,7 @@ session_start();
         <div class="card">
             <div class="img-section">
                 <img src="images/cat1.jpg">
-                <p>Yellow Cat</p>
+                <p>Yellsdfsdow Cat</p>
             </div>
             <div class="desc-section">
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>

@@ -14,7 +14,7 @@ session_start();
 
 <body>
     <?php include "navbar.php" ?>
-    <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit delectus deserunt tenetur distinctio repellat vero, minus eaque exercitationem. Assumenda molestiae porro laboriosam nobis reprehenderit est dolores pariatur et at inventore!</h1>
+    <h1>Lorem  dolor sit amet consectetur, adipisicing elit. Impedit delectus deserunt tenetur distinctio repellat vero, minus eaque exercitationem. Assumenda molestiae porro laboriosam nobis reprehenderit est dolores pariatur et at inventore!</h1>
 </body>
 
 </html>
